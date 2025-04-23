@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>تایید کد OTP</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-100 h-screen flex items-center justify-center">
+    <div class="bg-white p-8 rounded-lg shadow-md w-full max-w-md">
+        <h2 class="text-2xl font-bold mb-6 text-center">تایید شماره موبایل</h2>
+        <p class="text-gray-600 mb-6 text-center">کد ارسال شده به شماره همراه <span class="font-medium" dir="ltr">09123456789</span> را در قسمت زیر وارد کنید.</p>
+        
+        <div class="mb-6">
+            <div class="flex justify-center gap-2 ltr flex-row-reverse">
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="w-12 h-12 text-center border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none" />
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="w-12 h-12 text-center border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none" />
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" class="w-12 h-12 text-center border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none" />
+                <input type="text" inputmode="numeric" pattern="[0-9]*" maxlength="1" autofocus class="w-12 h-12 text-center border-2 border-gray-300 rounded-lg focus:border-blue-500 focus:outline-none" />
+            </div>
+        </div>
+
+        <button class="w-full bg-blue-600 text-white py-3 rounded-lg hover:bg-blue-700 transition duration-300">
+            تایید
+        </button>
+
+        <div class="mt-4 text-center">
+            <span class="text-gray-600">کد را دریافت نکردید؟</span>
+            <button class="text-blue-600 hover:text-blue-700 mr-1">ارسال مجدد کد</button>
+            <span class="text-gray-400">(۰۰:۳۵)</span>
+        </div>
+    </div>
+    <script src="js/bundle.js"></script>
+</body>
+</html> 
