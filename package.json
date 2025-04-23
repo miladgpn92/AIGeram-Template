@@ -1,0 +1,30 @@
+{
+  "name": "aigram",
+  "version": "1.0.0",
+  "description": "A simple web application with Tailwind CSS, Webpack, and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack serve --mode development",
+    "build": "webpack --mode production"
+  },
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "autoprefixer": "^10.4.21",
+    "css-loader": "^6.10.0",
+    "html-webpack-plugin": "^5.6.0",
+    "mini-css-extract-plugin": "^2.8.1",
+    "postcss": "^8.4.35",
+    "postcss-loader": "^8.1.0",
+    "sass": "^1.32.0",
+    "sass-loader": "^14.1.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.3.3",
+    "webpack": "^5.90.1",
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
+  }
+}

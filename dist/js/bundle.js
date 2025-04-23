@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("AIGram application started!")})();
